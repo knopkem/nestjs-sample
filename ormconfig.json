@@ -5,10 +5,10 @@
   "username": "postgres",
   "password": "postgres",
   "database": "test",
-  "entities": ["dist/**/*.entity{.ts,.js}", "node_modules/nestjs-admin/**/*.entity.js"],
+  "entities": ["dist/**/*.entity{.ts,.js}"],
   "migrations": ["migrations/**/*.ts"],
   "cli": {
             "migrationsDir": ["migrations"]
          },
-  "synchronize": false
+  "synchronize": true
 }
